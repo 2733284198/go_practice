@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;bufioSample&gt;">
+    <CLASSES>
+      <root url="file://D:/gopath/src/frank" />
+      <root url="file://D:/gopath/src/github.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
