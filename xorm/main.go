@@ -12,6 +12,9 @@ import (
 
 var engine *xorm.Engine
 
+// xorm会根据成员变量的大小写生成数据库列名
+// 	ServerID ——>  server_i_d
+//  ServerId ——>  server_id
 type User struct {
 	Id   int64
 	Name string
@@ -46,6 +49,7 @@ func main() {
 	var user User
 	user.Id = 1
 	user.Name = "test"
+	// 需要插入指定数据库表可以先通过Table()函数获取到数据库表
 	engine.Insert(&user)
 
 	user.Id = 2
