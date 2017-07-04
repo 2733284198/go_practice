@@ -10,6 +10,11 @@ import (
 	"github.com/go-xorm/xorm"
 )
 
+// golang xorm框架的使用
+// http://www.cnblogs.com/guhao123/p/4159688.html
+// xorm常用编程方法总结
+// http://blog.csdn.net/wdy_yx/article/details/52687667
+
 var engine *xorm.Engine
 
 // xorm会根据成员变量的大小写生成数据库列名
@@ -57,6 +62,20 @@ func main() {
 	engine.Insert(&user)
 
 	pUsers := make(map[int64]*User)
+	err = engine.Find(&pUsers)
+	if err != nil {
+		log.Println(err)
+	}
+	for k, v := range pUsers {
+		log.Println(k, v)
+	}
+
+	user.Id = 2
+	user.Name = "frank"
+	_, err = engine.Where("Id=? and Name=?", 2, "fx").Update(&user)
+	if err != nil {
+		log.Println(err)
+	}
 	err = engine.Find(&pUsers)
 	if err != nil {
 		log.Println(err)
