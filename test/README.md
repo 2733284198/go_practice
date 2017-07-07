@@ -59,3 +59,5 @@
 + [Testing Your (HTTP) Handlers in Go](https://elithrar.github.io/article/testing-http-handlers-go/)
 + [Golang单元测试之httptest使用](http://blog.csdn.net/lavorange/article/details/73369153?utm_source=itdadao&utm_medium=referral)
 + [云平台下 Go 语言单元测试实践](http://www.golangtc.com/t/582be071b09ecc08ce0003b3)
++ [Basic testing patterns in Go](https://medium.com/agrea-technogies/basic-testing-patterns-in-go-d8501e360197)
++ [Mocking dependencies in Go](https://medium.com/agrea-technogies/mocking-dependencies-in-go-bb9739fef008)
