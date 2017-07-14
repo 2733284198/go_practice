@@ -1,0 +1,15 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "dXJGsjPzYOMDBp+mva7VPZjE/jE=",
+			"path": "github.com/gyuho/goraph",
+			"revision": "d460590d53a91b1f29347ca9b01d1e8c158cbeb2",
+			"revisionTime": "2016-03-28T02:05:32Z",
+			"version": "v2.0",
+			"versionExact": "v2.0"
+		}
+	],
+	"rootPath": "github.com/feixiao/go_practice/goraph"
+}
