@@ -9,3 +9,4 @@
 
 + [Makefiles for Golang](https://sahilm.com/makefiles-for-golang/)
 + [像牛人一样改进你的Go代码](http://colobu.com/2017/06/27/Lint-your-golang-code-like-a-mad-man/)
++ [Go语言的实时GC——理论与实践](https://segmentfault.com/a/1190000010753702?_ea=2426880)
