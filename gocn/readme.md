@@ -8,3 +8,4 @@
 + [Golang代码规范](https://sheepbao.github.io/post/golang_code_specification)
 
 + [Makefiles for Golang](https://sahilm.com/makefiles-for-golang/)
++ [像牛人一样改进你的Go代码](http://colobu.com/2017/06/27/Lint-your-golang-code-like-a-mad-man/)
