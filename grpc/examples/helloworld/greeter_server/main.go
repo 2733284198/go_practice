@@ -38,6 +38,7 @@ const (
 // server is used to implement helloworld.GreeterServer.
 type server struct{}
 
+// 实现对应RPC接口的逻辑
 // SayHello implements helloworld.GreeterServer
 func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloReply, error) {
 	return &pb.HelloReply{Message: "Hello " + in.Name}, nil
@@ -49,8 +50,10 @@ func main() {
 		log.Fatalf("failed to listen: %v", err)
 	}
 	s := grpc.NewServer()
+	// 注册对应的RPC服务
 	pb.RegisterGreeterServer(s, &server{})
 	// Register reflection service on gRPC server.
+	
 	reflection.Register(s)
 	if err := s.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %v", err)

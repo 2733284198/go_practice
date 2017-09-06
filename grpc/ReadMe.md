@@ -28,6 +28,15 @@
     govendor fetch google.golang.org/grpc@v1.6.0 
     ```
 
++ 安装protobuf
+
+  ```shell
+  go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
+
+  # 为了安装命令行工具protoc
+  https://github.com/google/protobuf/releases/tag/v3.4.0
+  ```
+
 
 #### 例子分析
 
