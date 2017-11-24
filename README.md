@@ -2,6 +2,8 @@
 Golang实例代码和练习
 
 
++ [Golang 任务队列策略](http://www.cnblogs.com/artong0416/p/7883381.html)
+
 # 资料索引
 
 + [在Visual Studio Code中配置GO开发环境](http://studygolang.com/articles/6204)
