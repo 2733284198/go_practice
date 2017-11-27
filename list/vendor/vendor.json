@@ -1,0 +1,35 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "IlDHv+GrkfH+xp1pdKzOqws1sLY=",
+			"path": "github.com/emirpasic/gods/containers",
+			"revision": "8a038b010338d247eee30f8b569dbba08bfb1ffa",
+			"revisionTime": "2017-10-13T19:01:07Z"
+		},
+		{
+			"checksumSHA1": "ZPTDtUhR0dyogtlRYPsLcRRojEo=",
+			"path": "github.com/emirpasic/gods/lists",
+			"revision": "f6c17b524822278a87e3b3bd809fec33b51f5b46",
+			"revisionTime": "2017-03-06T04:24:02Z",
+			"version": "v1.9.0",
+			"versionExact": "v1.9.0"
+		},
+		{
+			"checksumSHA1": "YEsCGa4n7yiF9/7Kq/zT4DZDRoU=",
+			"path": "github.com/emirpasic/gods/lists/arraylist",
+			"revision": "f6c17b524822278a87e3b3bd809fec33b51f5b46",
+			"revisionTime": "2017-03-06T04:24:02Z",
+			"version": "v1.9.0",
+			"versionExact": "v1.9.0"
+		},
+		{
+			"checksumSHA1": "6KV7DzMiMWnJbp5qhycmPIQ4t70=",
+			"path": "github.com/emirpasic/gods/utils",
+			"revision": "8a038b010338d247eee30f8b569dbba08bfb1ffa",
+			"revisionTime": "2017-10-13T19:01:07Z"
+		}
+	],
+	"rootPath": "github.com/feixiao/go_practice/list"
+}
