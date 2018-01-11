@@ -1,0 +1,61 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "appengine/cloudsql",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "0xIBiVOmW6JxXyxOZsBTtHF1Jxw=",
+			"path": "github.com/erikstmartin/go-testdb",
+			"revision": "8d10e4a1bae52cd8b81ffdec3445890d6dccab3d",
+			"revisionTime": "2016-02-19T21:45:06Z"
+		},
+		{
+			"checksumSHA1": "CFVl/nVtskIWUJk2pFw0BOxEbtU=",
+			"path": "github.com/kellydunn/golang-geo",
+			"revision": "0862dac374594467ff6cc454c7cc974536e039b2",
+			"revisionTime": "2015-12-08T20:59:52Z",
+			"version": "v0.7.0",
+			"versionExact": "v0.7.0"
+		},
+		{
+			"checksumSHA1": "p+Bj1OSkp9/zxr6oZGzBAvYsdm0=",
+			"path": "github.com/kylelemons/go-gypsy/yaml",
+			"revision": "08cad365cd28a7fba23bb1e57aa43c5e18ad8bb8",
+			"revisionTime": "2016-09-05T02:00:20Z"
+		},
+		{
+			"checksumSHA1": "IfZcD4U1dtllJKlPNeD2aU4Jn98=",
+			"path": "github.com/lib/pq",
+			"revision": "83612a56d3dd153a94a629cd64925371c9adad78",
+			"revisionTime": "2017-11-26T05:04:59Z"
+		},
+		{
+			"checksumSHA1": "AU3fA8Sm33Vj9PBoRPSeYfxLRuE=",
+			"path": "github.com/lib/pq/oid",
+			"revision": "83612a56d3dd153a94a629cd64925371c9adad78",
+			"revisionTime": "2017-11-26T05:04:59Z"
+		},
+		{
+			"checksumSHA1": "2TJV/f15/49inUOLH5hJK+nkRNw=",
+			"path": "github.com/ziutek/mymysql/godrv",
+			"revision": "ff6cc86d3d933e6c0e3185a19fb46e171a7651b2",
+			"revisionTime": "2017-12-17T23:40:33Z"
+		},
+		{
+			"checksumSHA1": "oRXWHvweXZQ99jtuUtYVvKv8oI0=",
+			"path": "github.com/ziutek/mymysql/mysql",
+			"revision": "ff6cc86d3d933e6c0e3185a19fb46e171a7651b2",
+			"revisionTime": "2017-12-17T23:40:33Z"
+		},
+		{
+			"checksumSHA1": "jV9XesO+NZ2UqmMw3zoUwM4UmAE=",
+			"path": "github.com/ziutek/mymysql/native",
+			"revision": "ff6cc86d3d933e6c0e3185a19fb46e171a7651b2",
+			"revisionTime": "2017-12-17T23:40:33Z"
+		}
+	],
+	"rootPath": "github.com/feixiao/go_practice/geo"
+}
