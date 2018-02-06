@@ -3,6 +3,7 @@ package main
 // http://xorm.io/docs/
 
 import (
+	"math"
 	"log"
 	"os"
 
@@ -21,13 +22,13 @@ var engine *xorm.Engine
 // 	ServerID ——>  server_i_d
 //  ServerId ——>  server_id
 type User struct {
-	Id   int64
+	Id   uint64
 	Name string
 }
 
 func main() {
 	var err error
-	engine, err = xorm.NewEngine("mysql", "root:12345678@tcp(172.28.104.225:32771)/test")
+	engine, err = xorm.NewEngine("mysql", "root:root@tcp(172.28.104.222:3306)/test")
 	if err != nil {
 		log.Println(err)
 		return
@@ -52,7 +53,7 @@ func main() {
 
 	// 插入数据
 	var user User
-	user.Id = 1
+	user.Id = math.MaxUint64/2 + 10
 	user.Name = "test"
 	// 需要插入指定数据库表可以先通过Table()函数获取到数据库表
 	engine.Insert(&user)
@@ -70,12 +71,14 @@ func main() {
 		log.Println(k, v)
 	}
 
-	user.Id = 2
+	user.Id = math.MaxUint64/2 + 10
 	user.Name = "frank"
-	_, err = engine.Where("Id=? and Name=?", 2, "fx").Update(&user)
+
+	_, err = engine.Where("Id=? and Name=?", user.Id, "fx").Update(&user)
 	if err != nil {
 		log.Println(err)
 	}
+
 	err = engine.Find(&pUsers)
 	if err != nil {
 		log.Println(err)

@@ -1,0 +1,15 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "wHJK2MbuCCBwndMy6qzRMCDuQ1E=",
+			"path": "github.com/urfave/cli",
+			"revision": "cfb38830724cc34fedffe9a2a29fb54fa9169cd1",
+			"revisionTime": "2017-08-11T01:42:03Z",
+			"version": "v1.20.0",
+			"versionExact": "v1.20.0"
+		}
+	],
+	"rootPath": "github.com/feixiao/go_practice/cli"
+}
