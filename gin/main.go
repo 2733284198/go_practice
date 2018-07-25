@@ -9,6 +9,9 @@ import (
 	"time"
 )
 
+// http://www.jyguagua.com/?p=3038
+// https://segmentfault.com/q/1010000015287655
+
 func main() {
 
 
@@ -18,21 +21,21 @@ func main() {
 
 	r := gin.Default()
 
-	config := cors.Config{
+
+	r.Use(cors.New(cors.Config{
+		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "PATCH"},
+		AllowHeaders:     []string{"Origin", "Content-Length", "Content-Type","token","x-access-token","x-url-path"},
 		AllowAllOrigins: true,
-		AllowCredentials: false,
-		MaxAge: 12 * time.Hour,
-	}
-
-	// "Origin,No-Cache, X-Requested-With, If-Modified-Since, Pragma, Last-Modified, Cache-Control, Expires, Content-Type, X-E4M-With, userId, token"
-	config.AddAllowHeaders("token","x-access-token","x-url-path")
-
-	r.Use(cors.New(config))
+		MaxAge:           12 * time.Hour,
+	}))
 
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "pong",
 		})
 	})
-	r.Run() // listen and serve on 0.0.0.0:8080
+
+
+	r.OPTIONS("/ping",)
+	r.Run(":8000") // listen and serve on 0.0.0.0:8000
 }
