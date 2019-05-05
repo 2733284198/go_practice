@@ -3,6 +3,8 @@ Golang实例代码和练习
 
 
 + [Golang 任务队列策略](http://www.cnblogs.com/artong0416/p/7883381.html)
++ [《基于 Go 语言构建企业级的 RESTful API 服务》](https://github.com/feixiao/apiserver_demos)
++ [《基于Go和Consul构建简单的分布式系统》](https://github.com/feixiao/go-consul-distributed-loggers)
 
 # 资料索引
 
