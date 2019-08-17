@@ -9,6 +9,7 @@ go get -u github.com/bilibili/kratos/tool/kratos
 ### 创建demo
 
 ```
+cd $GOPATH/src
 kratos new kratos-demo
 cd kratos-demo/cmd 
 go build 
