@@ -9,6 +9,12 @@ import (
 	"log"
 )
 
+var ErrConnectionClosed = errors.New("zk: connection closed")
+
+func doSomething() error {
+	return ErrConnectionClosed
+}
+
 func main() {
 	// 创建新的错误值
 	err := errors.New("whoops")
@@ -33,6 +39,9 @@ func main() {
 	err = f1()
 	err1 = errors.WithMessage(err, "error in main") // 在原来的错误值之上添加额外的信息
 	fmt.Printf("%+s\n\n", errors.Cause(err1))
+
+	err = doSomething()
+	fmt.Println(err == ErrConnectionClosed)
 }
 
 
