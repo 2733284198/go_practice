@@ -64,11 +64,8 @@ Go基础库整理
 + [《基于 Go 语言构建企业级的 RESTful API 服务》](https://github.com/feixiao/apiserver_demos)
 + [《基于Go和Consul构建简单的分布式系统》](https://github.com/feixiao/go-consul-distributed-loggers)
 
-<<<<<<< HEAD
-# 资料索引
-=======
+
 ### 资料索引
->>>>>>> 5c4d8f6ffc5eb4ee66df13a3726860c90e03938d
 + [在Visual Studio Code中配置GO开发环境](http://studygolang.com/articles/6204)
 + [Visual Studio Code需要的工具集 Ubuntu版本](https://pan.baidu.com/s/1i48TMdf)
 + [Testing Your (HTTP) Handlers in Go](https://elithrar.github.io/article/testing-http-handlers-go/)
