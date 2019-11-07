@@ -40,6 +40,7 @@ Go基础库整理
 + [dubbo](https://github.com/apache/dubbo)
 + [go-chassis](https://github.com/go-chassis/go-chassis)
 + [Tars](https://github.com/TarsCloud/Tars)
++ [kratos](https://github.com/bilibili/kratos)
 
 #### 音视频
 + [pion](https://github.com/pion) webrtc客户端涉及的基础库。
