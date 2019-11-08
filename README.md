@@ -60,6 +60,7 @@ Go基础库整理
 + [go-svc](https://github.com/judwhite/go-svc) 服务启动和退出。
 + [snowflake](https://github.com/bwmarrin/snowflake) 全局唯一ID。
 + [heimdall](https://github.com/gojek/heimdall) HTTP客户端。
++ [swig](https://github.com/feixiao/swig) 连接C/C++和其他高级语言
 
 ### 简单项目
 + [Golang 任务队列策略](http://www.cnblogs.com/artong0416/p/7883381.html)
