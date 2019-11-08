@@ -6,7 +6,7 @@ go get github.com/google/wire/cmd/wire
 ```
 
 ### 使用
-+ [](https://github.com/google/wire/blob/master/docs/guide.md)
++ [用户手册](./UserGuide.md)
 
 
 
