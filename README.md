@@ -28,6 +28,7 @@ Go基础库整理
 + [testify](https://github.com/stretchr/testify)
 + [golangci-lint](https://github.com/golangci/golangci-lint)
 + [goreportcard](https://github.com/gojp/goreportcard)
++ [Uber Go编码规范](https://github.com/xxjwxc/uber_go_guide_cn)
 
 #### 配置中心
 + [consul](https://github.com/hashicorp/consul)
