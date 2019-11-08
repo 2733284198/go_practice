@@ -62,6 +62,10 @@ Go基础库整理
 + [heimdall](https://github.com/gojek/heimdall) HTTP客户端。
 + [swig](https://github.com/feixiao/swig) 连接C/C++和其他高级语言
 
+#### 依赖注入
++ [google/wire](https://github.com/google/wire) 编译时依赖注入
+
+
 ### 简单项目
 + [Golang 任务队列策略](http://www.cnblogs.com/artong0416/p/7883381.html)
 + [《基于 Go 语言构建企业级的 RESTful API 服务》](https://github.com/feixiao/apiserver_demos)
