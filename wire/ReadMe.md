@@ -6,6 +6,7 @@ go get github.com/google/wire/cmd/wire
 ```
 
 ### 使用
++ [Wire例子](./Tutorial.md)
 + [用户手册](./UserGuide.md)
 
 
