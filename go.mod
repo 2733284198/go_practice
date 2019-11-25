@@ -3,6 +3,8 @@ module github.com/feixiao/go_practice
 go 1.12
 
 require (
+	github.com/appleboy/gin-jwt/v2 v2.6.2
+	github.com/gin-gonic/gin v1.5.0
 	github.com/google/go-cmp v0.3.1 // indirect
 	github.com/google/wire v0.3.0 // indirect
 	github.com/mattn/go-colorable v0.1.4 // indirect
