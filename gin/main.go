@@ -4,6 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"io"
 	"os"
+	"net/http"
 	"github.com/feixiao/log4go"
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-contrib/cors"
@@ -29,6 +30,24 @@ func main() {
 		AllowAllOrigins: true,
 		MaxAge:           12 * time.Hour,
 	}))
+
+	r.GET("/", func(c *gin.Context) {
+        c.JSON(http.StatusOK, gin.H{
+            "message": "Hello World!",
+        })
+    })
+
+    authorized := r.Group("/", gin.BasicAuth(gin.Accounts{
+        "user1": "love",
+        "user2": "god",
+        "user3": "sex",
+    }))
+
+    authorized.GET("/secret", func(c *gin.Context) {
+        c.JSON(http.StatusOK, gin.H{
+            "secret": "The secret ingredient to the BBQ sauce is stiring it in an old whiskey barrel.",
+        })
+    })
 
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
