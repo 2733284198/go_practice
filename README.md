@@ -19,6 +19,8 @@ Go基础库整理
 #### HTTP服务
 + [gin](https://github.com/gin-gonic/gin)
     + [jwt](https://github.com/appleboy/gin-jwt)  JWT Middleware for Gin framework.
+    + [go-gin-prometheus](https://github.com/zsais/go-gin-prometheus)
+    + [ginprom](https://github.com/Depado/ginprom)
 + [httprouter](https://github.com/julienschmidt/httprouter)
 
 #### 数据库
