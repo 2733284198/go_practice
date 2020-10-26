@@ -16,6 +16,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/writeconcern"
 )
 
+// https://github.com/simagix/mongo-go-examples
+
 type Howie struct {
 	//struct里面获取ObjectID
 	HowieId     primitive.ObjectID `bson:"_id"`
